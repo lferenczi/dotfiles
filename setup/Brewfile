@@ -2,58 +2,57 @@
 # Usage: `brew bundle Brewfile`
 
 # Make sure we'e using the latest Homebrew
-update
+brew update
 
 # Upgrade any already-installed formulae
-upgrade
+brew upgrade
 
 # Install GNU core utilities (those that come with OS X are outdated)
 # Don't forget to add `$(brew --prefix coreutils)/libexec/gnubin` to `$PATH`.
-install coreutils
-#sudo ln -s /usr/local/bin/gsha256sum /usr/local/bin/sha256sum
+brew install coreutils
 
 # Install some other useful utilities like `sponge`
-install moreutils
+brew install moreutils
 # Install GNU `find`, `locate`, `updatedb`, and `xargs`, `g`-prefixed
-install findutils
+brew install findutils
 # Install GNU `sed`, overwriting the built-in `sed`
-install gnu-sed --default-names
+brew install gnu-sed --default-names
 # Install Bash 4
 # Note: don't forget to add `/usr/local/bin/bash` to `/etc/shells` before running `chsh`.
-install bash
-install bash-completion
+brew install bash
+brew install bash-completion
 
 # Install wget with IRI support
-install wget --enable-iri
+brew install wget --enable-iri
 
 # Install more recent versions of some OS X tools
-install vim --override-system-vi
-install homebrew/dupes/grep
-install homebrew/dupes/screen
+brew install vim --override-system-vi
+brew install homebrew/dupes/grep
+brew install homebrew/dupes/screen
 
 # Install some CTF tools; see https://github.com/ctfs/write-ups
-install binutils
-install nmap
+brew install binutils
+brew install nmap
 
 # Install other useful binaries
-install pv
-install tree
-install dos2unix
-install mackup
-install openssl
-install readline
+brew install pv
+brew install tree
+brew install dos2unix
+brew install mackup
+brew install openssl
+brew install readline
 
 # Shell
-install zsh
-install zsh-completions
-install autojump
-install terminal-notifier
+brew install zsh
+brew install zsh-completions
+brew install autojump
+brew install terminal-notifier
 
 # Dev
-install git
-install gradle
-install mariadb
-install subversion
+brew install git
+brew install gradle
+brew install mariadb
+brew install subversion
 
 # Remove outdated versions from the cellar
-cleanup
+brew cleanup
