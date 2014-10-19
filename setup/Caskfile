@@ -1,23 +1,24 @@
+#!/bin/bash
 # Install native apps
 # Usage: `brew bundle Caskfile`
 
-install caskroom/cask/brew-cask
-tap caskroom/versions
-tap caskroom/fonts
+brew install caskroom/cask/brew-cask
+brew tap caskroom/versions
+brew tap caskroom/fonts
 
-cask install alfred 2> /dev/null
-cask install java 2> /dev/null
-cask install font-sauce-code-powerline
-cask install dropbox 2> /dev/null
-cask install google-chrome 2> /dev/null
-cask install iterm2 2> /dev/null
-cask install the-unarchiver 2> /dev/null
-cask install transmission 2> /dev/null
-cask install virtualbox 2> /dev/null
-cask install vlc 2> /dev/null
-cask install vagrant 2> /dev/null
-cask install spotify 2> /dev/null
-cask install mailbox 2> /dev/null
-cask install skype 2> /dev/null
-cask install quicklook-json 2> /dev/null
-cask install sourcetree 2> /dev/null
+brew cask install alfred
+brew cask install java
+brew cask install font-sauce-code-powerline
+brew cask install dropbox
+brew cask install google-chrome
+brew cask install iterm2
+brew cask install the-unarchiver
+brew cask install transmission
+brew cask install virtualbox
+brew cask install vlc
+brew cask install vagrant
+brew cask install spotify
+brew cask install mailbox
+brew cask install skype
+brew cask install quicklook-json
+brew cask install sourcetree
