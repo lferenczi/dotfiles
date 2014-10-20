@@ -27,7 +27,7 @@ echo "This script will make your Mac awesome"
 ###############################################################################
 
 echo ""
-echo "Setting your computer name (as done via System Preferences â†’ Sharing)"
+echo "Setting your computer name (as done via System Preferences -> Sharing)"
 echo "What would you like it to be?"
 read COMPUTER_NAME
 sudo scutil --set ComputerName $COMPUTER_NAME
