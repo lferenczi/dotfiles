@@ -8,6 +8,8 @@ brew tap caskroom/fonts
 
 brew cask install alfred
 brew cask install java
+brew cask install java6
+brew cask install java7
 brew cask install font-sauce-code-powerline
 brew cask install dropbox
 brew cask install google-chrome
@@ -22,3 +24,4 @@ brew cask install mailbox
 brew cask install skype
 brew cask install quicklook-json
 brew cask install sourcetree
+brew cask install intellij-idea
