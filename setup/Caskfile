@@ -6,24 +6,24 @@ brew install caskroom/cask/brew-cask
 brew tap caskroom/versions
 brew tap caskroom/fonts
 
-brew cask install alfred
+brew cask install --appdir=/Applications alfred
 brew cask install java
 brew cask install java6
 brew cask install java7
 brew cask install font-sauce-code-powerline
-brew cask install dropbox
-brew cask install google-chrome
-brew cask install iterm2
-brew cask install the-unarchiver
-brew cask install transmission
-brew cask install virtualbox
-brew cask install vlc
-brew cask install vagrant
-brew cask install spotify
-brew cask install mailbox
-brew cask install skype
+brew cask install --appdir=/Applications dropbox
+brew cask install --appdir=/Applications google-chrome
+brew cask install --appdir=/Applications iterm2
+brew cask install --appdir=/Applications the-unarchiver
+brew cask install --appdir=/Applications transmission
+brew cask install --appdir=/Applications virtualbox
+brew cask install --appdir=/Applications vlc
+brew cask install --appdir=/Applications vagrant
+brew cask install --appdir=/Applications spotify
+brew cask install --appdir=/Applications mailbox
+brew cask install --appdir=/Applications skype
 brew cask install quicklook-json
-brew cask install sourcetree
-brew cask install intellij-idea
+brew cask install --appdir=/Applications sourcetree
+brew cask install --appdir=/Applications intellij-idea
 
 brew cask alfred link
