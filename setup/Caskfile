@@ -20,7 +20,6 @@ brew cask install --appdir=/Applications virtualbox
 brew cask install --appdir=/Applications vlc
 brew cask install --appdir=/Applications vagrant
 brew cask install --appdir=/Applications spotify
-brew cask install --appdir=/Applications mailbox
 brew cask install --appdir=/Applications skype
 brew cask install quicklook-json
 brew cask install --appdir=/Applications sourcetree
